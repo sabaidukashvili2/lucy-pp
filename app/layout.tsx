@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     "dream journal",
     "REM",
     "sleep science",
+    "lucy",
   ],
   authors: [{ name: site.developer }],
   openGraph: {

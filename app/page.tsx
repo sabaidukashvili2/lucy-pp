@@ -29,7 +29,7 @@ function Hero() {
         <div>
           <Kicker>Lucid dreaming trainer</Kicker>
           <h1 className="mt-5 text-balance text-5xl font-black leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
-            Being awake inside your own dreams.
+             Start Lucid Dreaming On Command
           </h1>
           <p className="mt-7 max-w-xl text-lg leading-relaxed text-mist">
             Lucy trains lucid dreaming with nothing but your phone, built on
