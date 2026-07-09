@@ -14,7 +14,6 @@ export default function HomePage() {
       <HowItWorks />
       <Features />
       <Privacy />
-      <Pricing />
       <FaqSection />
       <DownloadCta />
     </>
@@ -298,64 +297,6 @@ function Privacy() {
           ))}
         </ul>
       </div>
-    </Section>
-  );
-}
-
-/* -------------------------------------------------------------- Pricing */
-function Pricing() {
-  return (
-    <Section id="pricing" className="py-24">
-      <div className="max-w-3xl">
-        <Kicker>Pricing</Kicker>
-        <h2 className="mt-5 text-balance text-4xl font-black tracking-tight sm:text-5xl">
-          One membership. The whole app.
-        </h2>
-        <p className="mt-6 text-lg leading-relaxed text-mist">
-          Lucy is a paid app with a single membership that unlocks everything.
-          Some plans start with a {site.pricing.trialDays}-day free trial, so
-          you pay nothing today and we remind you before it ends.
-        </p>
-      </div>
-
-      <div className="mt-14 grid gap-5 md:grid-cols-2">
-        <Card className="flex flex-col">
-          <p className="label-kicker">Yearly</p>
-          <p className="mt-4 text-4xl font-black tracking-tight text-ink">
-            {site.pricing.yearly}
-          </p>
-          <p className="mt-3 text-[0.95rem] text-mist">
-            Best value for building a lasting practice. Includes a{" "}
-            {site.pricing.trialDays}-day free trial on eligible plans.
-          </p>
-          <div className="mt-7">
-            <AppStoreButton size="md" />
-          </div>
-        </Card>
-
-        <Card className="flex flex-col">
-          <p className="label-kicker">Monthly</p>
-          <p className="mt-4 text-4xl font-black tracking-tight text-ink">
-            {site.pricing.monthly}
-          </p>
-          <p className="mt-3 text-[0.95rem] text-mist">
-            Month to month, cancel anytime in your App Store settings.
-          </p>
-          <div className="mt-7">
-            <AppStoreButton size="md" />
-          </div>
-        </Card>
-      </div>
-
-      <p className="mt-8 max-w-3xl text-sm leading-relaxed text-faint">
-        Prices are set in the App Store and may vary by region and over time.
-        Subscriptions renew automatically until cancelled. You can manage or
-        cancel anytime under your Apple ID. See the{" "}
-        <Link href="/terms" className="text-steel underline underline-offset-4">
-          Terms of Use
-        </Link>{" "}
-        for the full details.
-      </p>
     </Section>
   );
 }

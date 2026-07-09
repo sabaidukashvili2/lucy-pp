@@ -26,6 +26,5 @@ export const nav = [
   { label: "The science", href: "/#science" },
   { label: "How it works", href: "/#how-it-works" },
   { label: "Privacy", href: "/#privacy" },
-  { label: "Pricing", href: "/#pricing" },
   { label: "FAQ", href: "/#faq" },
 ] as const;

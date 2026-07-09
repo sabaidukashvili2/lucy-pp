@@ -23,7 +23,6 @@ export function Footer() {
             <FooterCol title="Product">
               <FooterLink href="/#science">The science</FooterLink>
               <FooterLink href="/#how-it-works">How it works</FooterLink>
-              <FooterLink href="/#pricing">Pricing</FooterLink>
               <FooterLink href="/#faq">FAQ</FooterLink>
             </FooterCol>
 
