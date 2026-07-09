@@ -4,10 +4,25 @@ import { PhoneMock } from "@/components/PhoneMock";
 import { Faq } from "@/components/Faq";
 import { Section, Kicker, Card, Icon, type IconName } from "@/components/ui";
 import { site } from "@/lib/site";
+import { faqs } from "@/lib/faqs";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
 
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Hero />
       <StatStrip />
       <Science />
@@ -31,7 +46,7 @@ function Hero() {
              Start Lucid Dreaming On Command
           </h1>
           <p className="mt-7 max-w-xl text-lg leading-relaxed text-mist">
-            Lucy trains lucid dreaming with nothing but your phone, built on
+            Lucyd trains lucid dreaming with nothing but your phone, built on
             real sleep science. She learns your dreams, nudges your awareness by
             day, and plays your cue at just the right moment while you sleep.
           </p>
@@ -105,7 +120,7 @@ function Science() {
     {
       icon: "moon" as IconName,
       title: "Timed to your REM",
-      body: "You dream 4 to 6 times a night. Lucy aims the cue at those windows, when lucidity is possible.",
+      body: "You dream 4 to 6 times a night. Lucyd aims the cue at those windows, when lucidity is possible.",
     },
   ];
 
@@ -117,7 +132,7 @@ function Science() {
           Grounded in the Northwestern 2024 study.
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-mist">
-          Lucy is built on Targeted Lucidity Reactivation, or TLR. In 2024,
+          Lucyd is built on Targeted Lucidity Reactivation, or TLR. In 2024,
           Konkoly and colleagues at Northwestern showed, for the first time,
           that you can provoke lucid dreams at home with an ordinary smartphone.
           A short pre-sleep routine pairs a sound cue with a moment of
@@ -143,7 +158,7 @@ function Science() {
           Source: Konkoly et al. (2024), &ldquo;Provoking lucid dreams at home
           with sensory cues paired with pre-sleep cognitive training.&rdquo;
           Reported lucid dreams rose from an average of 0.74 to 2.11 per week.
-          Lucy applies this method. It does not guarantee results, and lucid
+          Lucyd applies this method. It does not guarantee results, and lucid
           dreaming remains a skill you build with practice.
         </p>
       </div>
@@ -158,18 +173,18 @@ function HowItWorks() {
       icon: "sun" as IconName,
       when: "Day",
       title: "Reality checks that fit your dreams",
-      body: "Lucy sends personalized trigger reminders based on the dreams you have most, say being chased, so a quick reality check becomes second nature.",
+      body: "Lucyd sends personalized trigger reminders based on the dreams you have most, say being chased, so a quick reality check becomes second nature.",
     },
     {
       icon: "moon" as IconName,
       when: "Night",
       title: "A wind-down, then your cue during REM",
-      body: "A two-minute priming settles your mind. Then Lucy plays your cue sound during REM windows, timed on your phone or read from your Apple Watch.",
+      body: "A two-minute priming settles your mind. Then Lucyd plays your cue sound during REM windows, timed on your phone or read from your Apple Watch.",
     },
     {
       icon: "pen" as IconName,
       when: "Morning",
-      title: "Journal, and Lucy retunes",
+      title: "Journal, and Lucyd retunes",
       body: "Capture your dream by text or voice. On-device AI tags recurring dream signs and retunes your triggers for the night ahead.",
     },
   ];
@@ -182,7 +197,7 @@ function HowItWorks() {
           One gentle loop, day and night.
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-mist">
-          You bring the curiosity. Lucy brings the timing, the cue, and the
+          You bring the curiosity. Lucyd brings the timing, the cue, and the
           memory of every dream you log.
         </p>
       </div>
@@ -265,7 +280,7 @@ function Privacy() {
             Your dreams never leave your phone.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-mist">
-            Privacy is not a setting in Lucy, it is the architecture. There is
+            Privacy is not a setting in Lucyd, it is the architecture. There is
             nowhere for us to read your journal, because it never reaches us.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -326,7 +341,7 @@ function DownloadCta() {
           Tonight could be the night.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-mist">
-          Set your cue, rest easy, and let Lucy watch for the moment you can
+          Set your cue, rest easy, and let Lucyd watch for the moment you can
           wake up inside the dream.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

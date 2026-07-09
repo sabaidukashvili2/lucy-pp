@@ -1,5 +1,5 @@
 /**
- * Phone mockup showing a real screenshot of the Lucy app.
+ * Phone mockup showing a real screenshot of the Lucyd app.
  * Drop the screenshot in public/image.png.
  */
 export function PhoneMock() {
@@ -10,7 +10,7 @@ export function PhoneMock() {
         <div className="relative overflow-hidden rounded-[34px] border border-line bg-void">
           <img
             src="/image.png"
-            alt="The Lucy app's night screen with the cue set for the REM window"
+            alt="The Lucyd app's night screen with the cue set for the REM window"
             className="block aspect-[9/19.5] w-full object-cover"
           />
         </div>

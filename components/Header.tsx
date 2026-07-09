@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-void/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link href="/" aria-label="Lucy home" className="shrink-0">
+        <Link href="/" aria-label="Lucyd home" className="shrink-0">
           <LucyMark />
         </Link>
 
@@ -32,7 +32,7 @@ export function Header() {
             href="/#download"
             className="rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-black transition-transform duration-200 hover:-translate-y-0.5"
           >
-            Get Lucy
+            Get Lucyd
           </Link>
         </div>
 
@@ -71,7 +71,7 @@ export function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-ink px-5 py-3 text-center text-sm font-semibold text-black"
             >
-              Get Lucy
+              Get Lucyd
             </Link>
           </nav>
         </div>

@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description:
-    "The terms for using Lucy, including subscriptions, auto-renewal, free trials, and how to cancel.",
+    "The terms for using Lucyd, including subscriptions, auto-renewal, free trials, and how to cancel.",
   alternates: { canonical: "/terms" },
 };
 
@@ -15,12 +15,12 @@ export default function TermsPage() {
     <LegalLayout
       title="Terms of Use"
       updated="July 7, 2026"
-      intro="These terms cover your use of Lucy. By downloading or using the app, you agree to them. Please read the subscription section closely so there are no surprises."
+      intro="These terms cover your use of Lucyd. By downloading or using the app, you agree to them. Please read the subscription section closely so there are no surprises."
     >
       <H2>The app</H2>
       <P>
-        Lucy is an iOS app by {site.developer} that helps you practice lucid
-        dreaming using a science-backed routine. Lucy is a wellness and training
+        Lucyd is an iOS app by {site.developer} that helps you practice lucid
+        dreaming using a science-backed routine. Lucyd is a wellness and training
         tool. It is not a medical device and does not diagnose, treat, or cure
         any condition. If you have a sleep disorder or health concern, please
         talk to a qualified professional.
@@ -29,14 +29,14 @@ export default function TermsPage() {
       <H2>License</H2>
       <P>
         We grant you a personal, non-transferable, non-exclusive license to use
-        Lucy on Apple devices you own or control, subject to the App Store Terms
+        Lucyd on Apple devices you own or control, subject to the App Store Terms
         of Service and these terms. You agree not to copy, reverse engineer, or
         resell the app except where the law allows.
       </P>
 
       <H2>Subscriptions</H2>
       <P>
-        Lucy is a paid app. A single membership unlocks the full app (a hard
+        Lucyd is a paid app. A single membership unlocks the full app (a hard
         paywall). Subscriptions are auto-renewing and are sold through Apple
         In-App Purchase.
       </P>
@@ -96,14 +96,14 @@ export default function TermsPage() {
 
       <H2>Acceptable use</H2>
       <P>
-        Use Lucy for your own personal practice. Do not use the app to break the
+        Use Lucyd for your own personal practice. Do not use the app to break the
         law, interfere with its operation, or attempt to access parts of the
         service you are not meant to.
       </P>
 
       <H2>No guarantees</H2>
       <P>
-        Lucid dreaming is a skill that varies from person to person. Lucy applies
+        Lucid dreaming is a skill that varies from person to person. Lucyd applies
         methods drawn from published research, but results differ and are not
         guaranteed. The app is provided &ldquo;as is&rdquo; and &ldquo;as
         available&rdquo; without warranties of any kind, to the fullest extent
@@ -121,7 +121,7 @@ export default function TermsPage() {
       <H2>Changes</H2>
       <P>
         We may update these terms as the app evolves. When we do, we will change
-        the &ldquo;last updated&rdquo; date above. Continuing to use Lucy after a
+        the &ldquo;last updated&rdquo; date above. Continuing to use Lucyd after a
         change means you accept the updated terms.
       </P>
 

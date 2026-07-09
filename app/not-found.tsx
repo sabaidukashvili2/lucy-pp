@@ -15,7 +15,7 @@ export default function NotFound() {
         href="/"
         className="mt-9 rounded-full bg-ink px-7 py-4 text-[0.98rem] font-semibold text-black transition-transform duration-200 hover:-translate-y-0.5"
       >
-        Back to Lucy
+        Back to Lucyd
       </Link>
     </div>
   );

@@ -17,7 +17,7 @@ export function LegalLayout({
         href="/"
         className="text-sm text-mist transition-colors hover:text-ink"
       >
-        &larr; Back to Lucy
+        &larr; Back to Lucyd
       </Link>
 
       <header className="mt-8">

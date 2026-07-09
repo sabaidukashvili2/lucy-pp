@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Lucy handles your data. Short version: your journal and dream data stay on your device, there are no accounts, and we do not track you.",
+    "How Lucyd handles your data. Short version: your journal and dream data stay on your device, there are no accounts, and we do not track you.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
     <LegalLayout
       title="Privacy Policy"
       updated="July 7, 2026"
-      intro="Lucy is designed so that your dream life stays yours. There are no accounts and no server of ours collecting your entries. This policy explains, plainly, what the app does and does not do with your information."
+      intro="Lucyd is designed so that your dream life stays yours. There are no accounts and no server of ours collecting your entries. This policy explains, plainly, what the app does and does not do with your information."
     >
       <H2>The short version</H2>
       <UL>
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
 
       <H2>Who we are</H2>
       <P>
-        Lucy is made by {site.developer} (&ldquo;we,&rdquo; &ldquo;us&rdquo;).
+        Lucyd is made by {site.developer} (&ldquo;we,&rdquo; &ldquo;us&rdquo;).
         The app&rsquo;s bundle identifier is{" "}
         <code className="text-steel">{site.bundleId}</code>. You can reach us
         anytime at{" "}
@@ -49,13 +49,13 @@ export default function PrivacyPage() {
 
       <H2>Information stored on your device</H2>
       <P>
-        The heart of Lucy is your practice, and it lives locally. The following
+        The heart of Lucyd is your practice, and it lives locally. The following
         is created and kept on your device, not on our servers:
       </P>
       <UL>
         <LI>Dream journal entries you write as text.</LI>
         <LI>Voice recordings and their transcripts, when you journal by voice.</LI>
-        <LI>Dream signs and recurring symbols that Lucy tags for you.</LI>
+        <LI>Dream signs and recurring symbols that Lucyd tags for you.</LI>
         <LI>Your goals, trigger reminders, cue choices, and app preferences.</LI>
       </UL>
       <P>
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
 
       <H2>Permissions the app may request</H2>
       <P>
-        Lucy only asks for what a given feature needs, and you can decline or
+        Lucyd only asks for what a given feature needs, and you can decline or
         change these anytime in your iOS Settings.
       </P>
       <UL>
@@ -81,16 +81,16 @@ export default function PrivacyPage() {
         </LI>
         <LI>
           <strong className="text-ink">HealthKit.</strong> Optional. If you
-          connect an Apple Watch, Lucy can read sleep and heart data to detect
+          connect an Apple Watch, Lucyd can read sleep and heart data to detect
           REM more precisely and time your cue. This is read on-device to run
-          the feature and is not shared with us. Lucy does not write your health
+          the feature and is not shared with us. Lucyd does not write your health
           data to any server.
         </LI>
       </UL>
 
       <H2>Subscriptions and payments</H2>
       <P>
-        Lucy&rsquo;s subscriptions are handled through Apple In-App Purchase and
+        Lucyd&rsquo;s subscriptions are handled through Apple In-App Purchase and
         managed with RevenueCat, a subscription infrastructure provider.
       </P>
       <UL>
@@ -120,7 +120,7 @@ export default function PrivacyPage() {
 
       <H2>Children</H2>
       <P>
-        Lucy is not directed to children under 13, and we do not knowingly
+        Lucyd is not directed to children under 13, and we do not knowingly
         collect information from them. If you believe a child has provided
         information through the app, contact us and we will help.
       </P>

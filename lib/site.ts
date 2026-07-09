@@ -3,16 +3,16 @@
  * the App Store listing is live.
  */
 export const site = {
-  name: "Lucy",
+  name: "Lucyd",
   tagline: "Being awake inside your own dreams.",
   developer: "Axon Labs",
-  bundleId: "com.axonlabs.lucy",
+  bundleId: "com.axonlabs.lucyd",
   domain: "lucyd.app",
   url: "https://lucyd.app",
   supportEmail: "siduka14@gmail.com",
 
   // TODO: replace with the real App Store listing URL once published.
-  appStoreUrl: "https://apps.apple.com/app/lucy",
+  appStoreUrl: "https://apps.apple.com/app/lucyd",
   appStoreLive: false,
 
   pricing: {

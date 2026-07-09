@@ -47,7 +47,7 @@ export function Footer() {
             &copy; {year} {site.developer}. All rights reserved.
           </p>
           <p>
-            Made for better nights. Lucy stores your journal on your device.
+            Made for better nights. Lucyd stores your journal on your device.
           </p>
         </div>
       </div>

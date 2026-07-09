@@ -5,18 +5,18 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Support",
   description:
-    "Get help with Lucy: contact us, manage your subscription, restore purchases, and control your data.",
+    "Get help with Lucyd: contact us, manage your subscription, restore purchases, and control your data.",
   alternates: { canonical: "/support" },
 };
 
 const topics = [
   {
     q: "Manage or cancel a subscription",
-    a: "Open the Settings app on your iPhone, tap your name, then Subscriptions, and choose Lucy. From there you can change plans or cancel. Cancelling stops the next renewal, and access continues until the period you already paid for ends.",
+    a: "Open the Settings app on your iPhone, tap your name, then Subscriptions, and choose Lucyd. From there you can change plans or cancel. Cancelling stops the next renewal, and access continues until the period you already paid for ends.",
   },
   {
     q: "Restore a purchase",
-    a: "If you reinstalled Lucy or switched devices, open the app and use Restore Purchases. Your subscription is tied to your Apple ID, so make sure you are signed in with the same one.",
+    a: "If you reinstalled Lucyd or switched devices, open the app and use Restore Purchases. Your subscription is tied to your Apple ID, so make sure you are signed in with the same one.",
   },
   {
     q: "Free trial and billing",
@@ -24,7 +24,7 @@ const topics = [
   },
   {
     q: "Change app permissions",
-    a: "Notifications, Microphone and Speech, and HealthKit can all be adjusted in the iOS Settings app under Lucy. Turning a permission off only affects the feature that uses it.",
+    a: "Notifications, Microphone and Speech, and HealthKit can all be adjusted in the iOS Settings app under Lucyd. Turning a permission off only affects the feature that uses it.",
   },
   {
     q: "Delete your data",
@@ -32,7 +32,7 @@ const topics = [
   },
   {
     q: "Apple Watch and REM detection",
-    a: "The Apple Watch is optional. It lets Lucy detect REM more precisely for cue timing. Phone-only mode works well too, using timed REM windows.",
+    a: "The Apple Watch is optional. It lets Lucyd detect REM more precisely for cue timing. Phone-only mode works well too, using timed REM windows.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function SupportPage() {
         href="/"
         className="text-sm text-mist transition-colors hover:text-ink"
       >
-        &larr; Back to Lucy
+        &larr; Back to Lucyd
       </Link>
 
       <header className="mt-8">
